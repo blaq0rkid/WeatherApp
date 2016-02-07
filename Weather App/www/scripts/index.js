@@ -13,6 +13,11 @@
         document.addEventListener('resume', onResume.bind(this), false);
         $('#get-weather').click(getWeather);
 
+        getLocation();
+
+    };
+
+
         
         // TODO: Cordova has been loaded. Perform any initialization that requires Cordova here.
     };

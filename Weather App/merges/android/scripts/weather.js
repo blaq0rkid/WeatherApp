@@ -35,7 +35,6 @@ function getLocation() {
 
     $('#description').text("Determining your current location ...");
     $('#get-weather').prop("disabled", true);
-    $('#app-title').text("Android Weather App");
 }
 
 var onSuccess = function (position) {
